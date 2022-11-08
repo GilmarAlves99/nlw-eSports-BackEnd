@@ -56,12 +56,12 @@ app.get('/games', async (request, response) => {
         include: {
             _count: {
                 select: {
-                    ads: true
-                }
-            }
-        }
-    })
-    return response.json([games]);
+                    ads: true,
+                },
+            },
+        },
+    });
+    return response.json(games);
 });
 
 
@@ -69,9 +69,7 @@ app.get('/games', async (request, response) => {
 app.post('/games/:id/ads', async (request, response) => {
     const gameId = request.params.id;
     const body = request.body;
-/*
 
-*/
     const ad = await prisma.ad.create({
         data: {
             gameId,
