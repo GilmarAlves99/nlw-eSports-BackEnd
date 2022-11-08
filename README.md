@@ -7,10 +7,13 @@
 
 ## A versão evoluída do projeto Esports na Next Level Week da Rocketseat.
 
-O cliente web é implantado aqui:
+Versão web é implantado aqui:
 <a href="https://github.com/GilmarAlves99/nlw-eSports-FrontEnd"> Web </a>
 
-O servidor é implantado aqui:
+Versão Mobile é implantado aqui:
+<a href="https://github.com/GilmarAlves99/nlw-eSports-Mobile"> Mobile </a>
+
+Versão do Servidor é implantado aqui:
 <a href="https://github.com/GilmarAlves99/nlw-eSports-BackEnd"> Back End </a>
 
 ### Descrição
